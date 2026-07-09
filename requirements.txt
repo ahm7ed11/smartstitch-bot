@@ -1,0 +1,13 @@
+discord.py>=2.4.0
+aiohttp>=3.9.0
+python-dotenv>=1.0.0
+
+google-api-python-client>=2.100.0
+google-auth>=2.23.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.2.0
+
+natsort>=8.4.0
+pillow>=10.0.0
+numpy>=1.26.0
+psd-tools>=1.10.13

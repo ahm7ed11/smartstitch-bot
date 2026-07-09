@@ -1,0 +1,11 @@
+.env
+service_account.json
+oauth_client.json
+token.json
+temp_jobs/*
+!temp_jobs/.gitkeep
+__pycache__/
+*.pyc
+__logs__/
+.venv/
+venv/
