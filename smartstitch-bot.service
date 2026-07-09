@@ -1,0 +1,15 @@
+[Unit]
+Description=SmartStitch Discord Bot
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/smartstitch-bot
+ExecStart=/home/ubuntu/smartstitch-bot/venv/bin/python bot.py
+Restart=always
+RestartSec=5
+EnvironmentFile=/home/ubuntu/smartstitch-bot/.env
+
+[Install]
+WantedBy=multi-user.target
