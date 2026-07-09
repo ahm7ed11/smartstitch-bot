@@ -1,0 +1,14 @@
+app = "smartstitch-bot"
+primary_region = "iad"
+
+[build]
+
+[processes]
+  app = "python bot.py"
+
+# بوت الديسكورد مش محتاج بورت HTTP، فمفيش [http_service] هنا
+# ده بيخلي Fly.io يشغله كـ worker دايم مش خدمة ويب بتنام
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
